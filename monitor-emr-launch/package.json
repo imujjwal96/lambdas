@@ -1,0 +1,14 @@
+{
+  "name": "monitor-emr-launch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.json *.log"
+  },
+  "author": "Ujjwal Bhardwaj",
+  "dependencies": {
+    "aws-sdk": "^2.314.0",
+    "uuid": "^3.3.2"
+  }
+}
